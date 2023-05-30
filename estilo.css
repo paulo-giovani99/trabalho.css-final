@@ -1,0 +1,44 @@
+@font-face {
+    font-family:minhafonte;
+    src: url(SuperMario256.ttf);
+}
+:root{
+    --corprincipal:#B82F00;
+    --corsecundaria:#F5865F;
+    --corterciaria:#00F5C0;
+    --correserva:#00A884;
+}
+body{
+    background-color: var(--corprincipal);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+}
+h1,h2{
+    color: blue;
+    text-align: center;
+    color: var(--corsecundaria);
+    text-transform: uppercase;
+    font-family:minhafonte;
+}
+img{
+    width: 45%;
+    margin: auto;
+    display: block;
+    border-radius: 70px;
+    border-color: var(--corsecundaria);
+    border-style: solid;
+}
+
+p{
+    font-family: Arial;
+    color: var(--corterciaria);
+}
+footer{
+    color: var(--corterciaria);
+    text-align: center;
+}
+ul{
+    text-align: center;
+    color:var(--correserva)
+}
